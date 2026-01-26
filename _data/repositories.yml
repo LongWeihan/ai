@@ -1,0 +1,9 @@
+github_users:
+  - LongWeihan
+
+repo_description_lines_max: 2
+
+github_repos:
+  - LongWeihan/OverSearchGuard
+  - LongWeihan/FlashToken
+  - LongWeihan/Turbo-Softmax

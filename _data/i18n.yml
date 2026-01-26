@@ -1,0 +1,47 @@
+en:
+  cv:
+    contact_information: Contact Information
+    professional_summary: Professional Summary
+    experience: Experience
+    education: Education
+    awards: Honors & Awards
+    publications: Publications
+    skills: Skills
+    languages: Languages
+    interests: Interests
+    certificates: Certificates
+    projects: Projects
+    references: References
+    present: Present
+    no_data: No CV data found. Please configure either RenderCV (cv.yml) or JSONResume data.
+    labels:
+      name: Name
+      professional_title: Professional Title
+      email: Email
+      phone: Phone
+      location: Location
+      website: Website
+zh:
+  cv:
+    contact_information: 联系方式
+    professional_summary: 个人简介
+    experience: 经历
+    education: 教育背景
+    awards: 荣誉与奖项
+    publications: 发表
+    skills: 技能
+    languages: 语言
+    interests: 兴趣
+    certificates: 证书
+    projects: 项目
+    references: 推荐人
+    present: 至今
+    no_data: 未找到简历数据。请配置 RenderCV（cv.yml）或 JSONResume 数据。
+    labels:
+      name: 姓名
+      professional_title: 职业方向
+      email: 邮箱
+      phone: 电话
+      location: 地点
+      website: 主页
+
