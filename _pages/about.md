@@ -27,8 +27,8 @@ latest_posts:
 I build fast and reliable LLM systems — especially around **agentic RAG** and **inference efficiency**.
 
 Currently:
-- **M.Eng.** at University of Electronic Science and Technology of China (UESTC), GPA **3.86/4.0**
-- **Visiting Student** at the University of Cambridge (CSC Full Scholarship, expected **2026–2027**)
+- **MPhil** at the University of Cambridge (CSC Full Scholarship, expected **2026–2027**)
+- **Bachelor** at University of Electronic Science and Technology of China (UESTC), GPA **3.82/4.0**
 
 ## Focus
 
