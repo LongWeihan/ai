@@ -65,6 +65,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ai/friends/";
           },
+        },{id: "nav-friends",
+          title: "Friends",
+          description: "Friends and links.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ai/friends/";
+          },
         },{id: "projects-flashtoken",
           title: 'FlashToken',
           description: "Tokenizer-side prefix caching for low-latency LLM systems (tiktoken).",
