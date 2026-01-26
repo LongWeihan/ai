@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" width="100%">
+<rect x="0" y="0" width="980" height="520" rx="0" fill="#ffffff"></rect>
+<text x="28" y="28" font-size="16" font-weight="800" fill="#111" text-anchor="start">Accuracy vs token budget (efficiency frontier)</text>
+<text x="28" y="48" font-size="11" font-weight="400" fill="#374151" text-anchor="start">x=avg_total_tokens (log) | y=accuracy | model=google/flan-t5-small | device=cuda</text>
+<rect x="80" y="450" width="860" height="1" rx="0" fill="#e5e7eb"></rect>
+<text x="70" y="454" font-size="10" font-weight="400" fill="#374151" text-anchor="end">0.0</text>
+<rect x="80" y="374" width="860" height="1" rx="0" fill="#e5e7eb"></rect>
+<text x="70" y="378" font-size="10" font-weight="400" fill="#374151" text-anchor="end">0.2</text>
+<rect x="80" y="298" width="860" height="1" rx="0" fill="#e5e7eb"></rect>
+<text x="70" y="302" font-size="10" font-weight="400" fill="#374151" text-anchor="end">0.4</text>
+<rect x="80" y="222" width="860" height="1" rx="0" fill="#e5e7eb"></rect>
+<text x="70" y="226" font-size="10" font-weight="400" fill="#374151" text-anchor="end">0.6</text>
+<rect x="80" y="146" width="860" height="1" rx="0" fill="#e5e7eb"></rect>
+<text x="70" y="150" font-size="10" font-weight="400" fill="#374151" text-anchor="end">0.8</text>
+<rect x="80" y="70" width="860" height="1" rx="0" fill="#e5e7eb"></rect>
+<text x="70" y="74" font-size="10" font-weight="400" fill="#374151" text-anchor="end">1.0</text>
+<rect x="268" y="70" width="1" height="380" rx="0" fill="#e5e7eb"></rect>
+<text x="268" y="472" font-size="10" font-weight="400" fill="#374151" text-anchor="middle">150</text>
+<rect x="431" y="70" width="1" height="380" rx="0" fill="#e5e7eb"></rect>
+<text x="431" y="472" font-size="10" font-weight="400" fill="#374151" text-anchor="middle">200</text>
+<rect x="660" y="70" width="1" height="380" rx="0" fill="#e5e7eb"></rect>
+<text x="660" y="472" font-size="10" font-weight="400" fill="#374151" text-anchor="middle">300</text>
+<rect x="823" y="70" width="1" height="380" rx="0" fill="#e5e7eb"></rect>
+<text x="823" y="472" font-size="10" font-weight="400" fill="#374151" text-anchor="middle">400</text>
+<rect x="80" y="70" width="1" height="380" rx="0" fill="#111827"></rect>
+<rect x="80" y="450" width="860" height="1" rx="0" fill="#111827"></rect>
+<text x="510" y="498" font-size="12" font-weight="400" fill="#111827" text-anchor="middle">avg_total_tokens (log)</text>
+<text x="28" y="260" font-size="12" font-weight="400" fill="#111827" text-anchor="middle">accuracy</text>
+<circle cx="940" cy="395" r="6" fill="#9ca3af" opacity="0.95"></circle>
+<text x="950" y="385" font-size="11" font-weight="600" fill="#111827" text-anchor="start">full (0.143, 491.5)</text>
+<circle cx="805" cy="382" r="6" fill="#9ca3af" opacity="0.95"></circle>
+<text x="815" y="398" font-size="11" font-weight="600" fill="#111827" text-anchor="start">bm25_k (0.177, 387.4)</text>
+<circle cx="806" cy="389" r="6" fill="#9ca3af" opacity="0.95"></circle>
+<text x="816" y="379" font-size="11" font-weight="600" fill="#111827" text-anchor="start">random_k (0.160, 387.9)</text>
+<circle cx="80" cy="91" r="6" fill="#2563eb" opacity="0.95"></circle>
+<text x="90" y="107" font-size="11" font-weight="600" fill="#111827" text-anchor="start">thin (0.943, 107.5)</text>
+<circle cx="129" cy="91" r="6" fill="#2563eb" opacity="0.95"></circle>
+<text x="139" y="81" font-size="11" font-weight="600" fill="#111827" text-anchor="start">bea (0.943, 117.3)</text>
+<circle cx="129" cy="81" r="6" fill="#2563eb" opacity="0.95"></circle>
+<text x="139" y="97" font-size="11" font-weight="600" fill="#111827" text-anchor="start">bea_fallback (0.970, 117.3)</text>
+</svg>
