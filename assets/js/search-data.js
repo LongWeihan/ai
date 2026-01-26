@@ -58,13 +58,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/ai/zh/friends/";
           },
-        },{id: "nav-友情链接",
-          title: "友情链接",
-          description: "朋友与友情链接。",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/ai/zh/friends/";
-          },
         },{id: "nav-friends",
           title: "Friends",
           description: "Friends and links.",
