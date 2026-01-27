@@ -27,10 +27,9 @@ latest_posts:
 I build fast and reliable LLM systems — especially around **agentic RAG** and **inference efficiency**.
 
 Education:
-- **University of Cambridge** (Cambridge, UK) — Visiting Student (CSC Full Scholarship), Expected **2026 – 2027**
-- **University of Electronic Science and Technology of China (UESTC)** (Chengdu, China) — MPhil Electronic Science and Technology (Grade A+), **GPA: 3.86/4.0** (2024 – 2027)
-- **University of Electronic Science and Technology of China (UESTC)** (Chengdu, China) — Bachelor in Electronic Science and Technology (Grade A+), **GPA: 3.82/4.0** (2020 – 2024)
-- **Honors:** Honors Degree (Top 2 in College), Outstanding Graduate.
+- **University of Cambridge** (Cambridge, UK) — Expected **2026 – 2027**<br>*Visiting Student (CSC Full Scholarship)*
+- **University of Electronic Science and Technology of China (UESTC)** (Chengdu, China) — 2024 – 2027<br>*MPhil in Electronic Science and Technology (Grade A+)*<br>**GPA: 3.86/4.0**
+- **University of Electronic Science and Technology of China (UESTC)** (Chengdu, China) — 2020 – 2024<br>*Bachelor in Electronic Science and Technology (Grade A+)*<br>**GPA: 3.82/4.0**
 
 ## Focus
 
