@@ -51,5 +51,5 @@ latest_posts:
 
 ## 荣誉
 
-- IEEEXtreme 编程赛全球 Top 5%（2021、2025）
+- IEEEXtreme 24 小时编程赛全球 Top 5%（2021、2025）
 - 荣誉学位（学院 Top 2）、优秀毕业生
