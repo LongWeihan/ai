@@ -8,7 +8,7 @@ subtitle: LLM Systems & Algorithms Engineer · UESTC · Visiting Student @ Unive
 profile:
   align: right
   image: profile.png
-  image_circular: true # crops the image to make it circular
+  image_circular: false # keep rectangular
   more_info: >
     <p><b>Email:</b> weihanlong@std.uestc.edu.cn</p>
     <p><b>GitHub:</b> github.com/LongWeihan</p>
@@ -39,10 +39,10 @@ Currently:
 ## Featured Projects
 
 <div class="projects">
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1">
     {% assign featured = site.projects | where: "lang", page.lang | sort: "importance" %}
     {% for project in featured limit: 3 %}
-      {% include projects.liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
   </div>
 </div>

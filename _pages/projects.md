@@ -6,7 +6,7 @@ description: Selected open-source work and experiments.
 nav: true
 nav_order: 3
 lang: en
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -14,9 +14,9 @@ horizontal: false
 {% assign sorted_projects = site.projects | sort: "importance" %}
 {% assign sorted_projects = sorted_projects | where: "lang", page.lang %}
 
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1">
     {% for project in sorted_projects %}
-      {% include projects.liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
   </div>
 </div>

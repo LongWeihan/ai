@@ -6,7 +6,7 @@ description: 我的开源项目与系统实验。
 nav: true
 nav_order: 3
 lang: zh
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -16,10 +16,9 @@ horizontal: false
 
   <!-- Generate cards for each project -->
 
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1">
     {% for project in sorted_projects %}
-      {% include projects.liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
   </div>
 </div>
-

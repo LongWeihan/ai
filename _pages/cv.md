@@ -1,13 +1,12 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
 lang: en
-cv_format: jsonresume # options: rendercv, jsonresume
-resume_data: resume_en
-description: Education, skills, projects, and honors.
-toc:
-  sidebar: left
+nav_link: /assets/pdf/cv_en.pdf
+nav_target: _blank
+description: Download CV (PDF).
 ---
+If the PDF did not open automatically, click: [CV (PDF)]({{ '/assets/pdf/cv_en.pdf' | relative_url }}).
