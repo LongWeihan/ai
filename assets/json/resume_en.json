@@ -25,15 +25,15 @@
     {
       "institution": "University of Cambridge",
       "location": "Cambridge, UK",
-      "studyType": "Joint program (Visiting Student, CSC Scholarship)",
+      "studyType": "Visiting Student (CSC Scholarship)",
       "startDate": "2026",
       "endDate": "2027",
-      "highlights": ["Expected 2026–2027"]
+      "highlights": ["Expected 2026-2027"]
     },
     {
       "institution": "University of Electronic Science and Technology of China (UESTC)",
       "location": "Chengdu, China",
-      "studyType": "M.Eng.",
+      "studyType": "MPhil",
       "area": "Electronic Science and Technology (Grade A+)",
       "startDate": "2024",
       "endDate": "2027",
@@ -42,7 +42,7 @@
     {
       "institution": "University of Electronic Science and Technology of China (UESTC)",
       "location": "Chengdu, China",
-      "studyType": "B.Eng.",
+      "studyType": "Bachelor",
       "area": "Electronic Science and Technology (Grade A+)",
       "startDate": "2020",
       "endDate": "2024",

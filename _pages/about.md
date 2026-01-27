@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 lang: en
-subtitle: LLM Systems & Algorithms Engineer · UESTC · Visiting Student @ University of Cambridge (Expected 2026–2027)
+subtitle: LLM Systems & Algorithms Engineer | UESTC | Visiting Student @ University of Cambridge (Expected 2026-2027)
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p><b>Email:</b> weihanlong@std.uestc.edu.cn</p>
     <p><b>GitHub:</b> github.com/LongWeihan</p>
-    <p><b>Location:</b> Chengdu, China · Cambridge, UK (visiting, 2026–2027)</p>
+    <p><b>Location:</b> Chengdu, China | Cambridge, UK (visiting, 2026-2027)</p>
 
 selected_papers: false
 social: true # includes social icons at the bottom of the page
@@ -27,9 +27,9 @@ latest_posts:
 I build fast and reliable LLM systems — especially around **agentic RAG** and **inference efficiency**.
 
 Education:
-- **Joint program (Visiting Student)** at the University of Cambridge (CSC Scholarship, expected **2026–2027**)
-- **M.Eng.** at University of Electronic Science and Technology of China (UESTC), GPA **3.86/4.0**
-- **B.Eng.** at University of Electronic Science and Technology of China (UESTC), GPA **3.82/4.0**
+- **Visiting Student** at the University of Cambridge, CSC Scholarship, expected **2026-2027**
+- **MPhil** at University of Electronic Science and Technology of China (UESTC), GPA **3.86/4.0**
+- **Bachelor** at University of Electronic Science and Technology of China (UESTC), GPA **3.82/4.0**
 
 ## Focus
 
