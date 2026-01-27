@@ -30,6 +30,7 @@ Education:
 - **University of Cambridge**<br>Expected **2026 – 2027**<br>Visiting Student (CSC Full Scholarship)
 - **University of Electronic Science and Technology of China (UESTC)**<br>**2024 – 2027**<br>MPhil in Electronic Science and Technology (Grade A+)<br>GPA: **3.86/4.0**
 - **University of Electronic Science and Technology of China (UESTC)**<br>**2020 – 2024**<br>Bachelor in Electronic Science and Technology (Grade A+)<br>GPA: **3.82/4.0**
+- Honors Degree (Top 2 in college), Outstanding Graduate
 
 ## Focus
 
