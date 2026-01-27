@@ -26,9 +26,10 @@ latest_posts:
 
 I build fast and reliable LLM systems — especially around **agentic RAG** and **inference efficiency**.
 
-Currently:
-- **MPhil** at the University of Cambridge (CSC Full Scholarship, expected **2026–2027**)
-- **Bachelor** at University of Electronic Science and Technology of China (UESTC), GPA **3.82/4.0**
+Education:
+- **Joint program (Visiting Student)** at the University of Cambridge (CSC Scholarship, expected **2026–2027**)
+- **M.Eng.** at University of Electronic Science and Technology of China (UESTC), GPA **3.86/4.0**
+- **B.Eng.** at University of Electronic Science and Technology of China (UESTC), GPA **3.82/4.0**
 
 ## Focus
 
@@ -39,10 +40,10 @@ Currently:
 ## Featured Projects
 
 <div class="projects">
-  <div class="row row-cols-1">
+  <div class="row row-cols-1 row-cols-md-3">
     {% assign featured = site.projects | where: "lang", page.lang | sort: "importance" %}
     {% for project in featured limit: 3 %}
-      {% include projects_horizontal.liquid %}
+      {% include projects.liquid %}
     {% endfor %}
   </div>
 </div>

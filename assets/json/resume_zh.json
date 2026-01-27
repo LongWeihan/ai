@@ -25,10 +25,19 @@
     {
       "institution": "University of Cambridge",
       "location": "Cambridge, UK",
-      "studyType": "MPhil（CSC 全额奖学金）",
+      "studyType": "联合培养 / 访问学生（CSC 全额奖学金）",
       "startDate": "2026",
       "endDate": "2027",
       "highlights": ["预计 2026–2027"]
+    },
+    {
+      "institution": "电子科技大学（UESTC）",
+      "location": "中国·成都",
+      "studyType": "硕士",
+      "area": "电子科学与技术（A+）",
+      "startDate": "2024",
+      "endDate": "2027",
+      "highlights": ["GPA：3.86/4.0"]
     },
     {
       "institution": "电子科技大学（UESTC）",

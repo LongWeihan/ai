@@ -26,9 +26,10 @@ latest_posts:
 
 我专注于大语言模型（LLM）系统与算法：**Agentic RAG 的可靠性治理**，以及 **推理效率优化**（Tokenizer / Softmax / 高性能内核）。
 
-目前：
-- 剑桥大学 **MPhil**（CSC 全奖，预计 **2026–2027**）
-- 电子科技大学（UESTC）**本科**（GPA **3.82/4.0**）
+学历：
+- 剑桥大学联合培养 / 访问学生（CSC 全奖，预计 **2026–2027**）
+- 电子科技大学（UESTC）硕士（GPA **3.86/4.0**）
+- 电子科技大学（UESTC）本科（GPA **3.82/4.0**）
 
 ## 方向
 
@@ -39,10 +40,10 @@ latest_posts:
 ## 代表项目
 
 <div class="projects">
-  <div class="row row-cols-1">
+  <div class="row row-cols-1 row-cols-md-3">
     {% assign featured = site.projects | where: "lang", page.lang | sort: "importance" %}
     {% for project in featured limit: 3 %}
-      {% include projects_horizontal.liquid %}
+      {% include projects.liquid %}
     {% endfor %}
   </div>
 </div>
