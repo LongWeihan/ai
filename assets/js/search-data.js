@@ -39,14 +39,14 @@ ninja.data = [{
           },
         },{id: "nav-简历",
           title: "简历",
-          description: "我的教育背景、技能、项目与奖项。",
+          description: "下载 PDF 简历。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/ai/zh/cv/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Education, skills, projects, and honors.",
+          description: "Download CV (PDF).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/ai/cv/";
