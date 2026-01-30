@@ -27,7 +27,21 @@ permalink: /zh/projects/orderguard/
 - 单次（single-shot）的“从列表里选一个”对重排极其不稳定：只做 **10 次随机重排**，赢家翻转比例可达 **58–75%**（视模型而定）。
 - OrderGuard 在 Qwen3 上把宏平均准确率提升 **+2.8 到 +4.6 个百分点**，单个数据集最高可到 **+7.6pp**。
 
+单个数据集上最大的提升（相对 single 的准确率增益，绝对百分点 pp）：
+
+| 模型 | 数据集 | 提升 | 方法 |
+|---|---|---:|---|
+| Qwen/Qwen3-0.6B | OpenBookQA | **+7.6 pp** | LaTIn |
+| Qwen/Qwen3-0.6B | TruthfulQA(MC1) | **+7.0 pp** | PCons |
+| Qwen/Qwen3-0.6B | CSQA | **+6.6 pp** | PCons |
+| Qwen/Qwen3-1.7B | HellaSwag | **+7.4 pp** | LaTIn |
+| Qwen/Qwen3-1.7B | OpenBookQA | **+5.2 pp** | LaTIn |
+| Qwen/Qwen3-1.7B | MMLU(all) | **+3.6 pp** | LaTIn |
+
 <div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/orderguard_accuracy_gain_by_task.png" title="按数据集展示增益（paired bootstrap 95% CI）" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
+  </div>
   <div class="col-sm-12 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/orderguard_order_flip_rate.svg" title="顺序翻转率（Qwen3）" class="img-fluid rounded z-depth-1" %}
   </div>
@@ -55,4 +69,3 @@ choices = [
 res = latin_consensus(lm, question, choices, max_perms=7, min_perms=3, js_eps=0.005, seed=0)
 print("winner:", choices[res.pred_index], "perms_used:", res.meta["perms_used"])
 ```
-

@@ -27,7 +27,21 @@ When you use an LLM to **pick 1 option out of N** (LLM-as-a-judge, RAG reranking
 - Single-shot multiple-choice is extremely order-sensitive: with just **10 random shuffles**, the predicted winner flips on **58–75%** of examples (depending on the model).
 - OrderGuard improves macro accuracy by **+2.8 to +4.6 pp** (and up to **+7.6 pp** on a single dataset).
 
+Biggest per-dataset gains (accuracy, absolute pp vs single):
+
+| Model | Dataset | Gain | Method |
+|---|---|---:|---|
+| Qwen/Qwen3-0.6B | OpenBookQA | **+7.6 pp** | LaTIn |
+| Qwen/Qwen3-0.6B | TruthfulQA(MC1) | **+7.0 pp** | PCons |
+| Qwen/Qwen3-0.6B | CSQA | **+6.6 pp** | PCons |
+| Qwen/Qwen3-1.7B | HellaSwag | **+7.4 pp** | LaTIn |
+| Qwen/Qwen3-1.7B | OpenBookQA | **+5.2 pp** | LaTIn |
+| Qwen/Qwen3-1.7B | MMLU(all) | **+3.6 pp** | LaTIn |
+
 <div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/orderguard_accuracy_gain_by_task.png" title="Accuracy gains by task (paired bootstrap 95% CI)" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
+  </div>
   <div class="col-sm-12 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/orderguard_order_flip_rate.svg" title="Order flip rate under shuffles (Qwen3)" class="img-fluid rounded z-depth-1" %}
   </div>
@@ -55,4 +69,3 @@ choices = [
 res = latin_consensus(lm, question, choices, max_perms=7, min_perms=3, js_eps=0.005, seed=0)
 print("winner:", choices[res.pred_index], "perms_used:", res.meta["perms_used"])
 ```
-
