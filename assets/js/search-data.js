@@ -75,6 +75,16 @@ ninja.data = [{
           description: "Tokenizer 端前缀缓存：让低延迟 LLM 系统的 tokenization 更快（tiktoken）。",
           section: "Projects",handler: () => {
               window.location.href = "/ai/zh/projects/flashtoken/";
+            },},{id: "projects-orderguard",
+          title: 'OrderGuard',
+          description: "Order-robust LLM judging/reranking/tool selection via permutation marginalization (LaTIn / PCons).",
+          section: "Projects",handler: () => {
+              window.location.href = "/ai/projects/orderguard/";
+            },},{id: "projects-orderguard",
+          title: 'OrderGuard',
+          description: "让 LLM 判题 / 重排 / 工具选择对“候选顺序”更鲁棒（LaTIn / PCons）。",
+          section: "Projects",handler: () => {
+              window.location.href = "/ai/zh/projects/orderguard/";
             },},{id: "projects-oversearchguard",
           title: 'OverSearchGuard',
           description: "Conflict-aware evidence thinning for search-augmented LLMs (RAG / agents).",
