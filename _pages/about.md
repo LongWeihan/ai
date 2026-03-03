@@ -51,5 +51,5 @@ Education:
 
 ## Honors
 
-- Global Top 5% — **IEEEXtreme – 24-hour Programming Competition** (2021, 2025)
+- Global Top 5% — **IEEEXtreme – 24-hour Programming Competition** (2021)
 - Honors Degree (Top 2 in college), Outstanding Graduate
