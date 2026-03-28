@@ -150,7 +150,7 @@
             {% assign lang_url = '/zh' | append: page.url %}
           {% endif %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ lang_url | relative_url }}">{{ lang_label }}</a>
+            <a class="nav-link nav-switch" href="{{ lang_url | relative_url }}">{{ lang_label }}</a>
           </li>
           {% if site.search_enabled %}
             <!-- Search -->
@@ -163,8 +163,12 @@
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+              <button
+                id="light-toggle"
+                class="theme-toggle-button"
+                title="{% if current_lang == 'zh' %}切换明暗主题{% else %}Toggle light and dark mode{% endif %}"
+                aria-label="{% if current_lang == 'zh' %}切换明暗主题{% else %}Toggle light and dark mode{% endif %}"
+              >
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>

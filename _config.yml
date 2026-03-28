@@ -7,15 +7,15 @@ first_name: Weihan
 middle_name:
 last_name: Long
 contact_note: >
-  Best reach: email.
+  Best reach: email or GitHub.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  LLM systems & algorithms engineer focused on inference optimization, agentic RAG, and high-performance kernels.
+  AI systems researcher focused on long-running agent harnesses, supervised execution platforms, and reliable LLM infrastructure.
 footer_text: >
   © {{ site.time | date: '%Y' }} Weihan Long. Built with
   <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and
   <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Hosted on
   <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: llm, rag, ai agents, inference optimization, tokenizer, softmax, kernels, portfolio # add your own keywords or leave empty
+keywords: ai systems, agents, long-running harness, task execution, rust agent framework, llm infrastructure, rag reliability, portfolio # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -62,7 +62,7 @@ posts_in_search: false
 bib_search: false
 
 # Dimensions
-max_width: 930px
+max_width: 1080px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -414,7 +414,7 @@ enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
+enable_masonry: false # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
@@ -473,7 +473,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
   highlightjs:
     integrity:
       css:

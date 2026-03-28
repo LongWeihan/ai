@@ -1,13 +1,24 @@
 ---
 layout: page
 title: Turbo-Softmax
-description: High-precision fast Softmax in C for generic MCUs (IEEE-754 tricks + poly exp).
+description: Fast high-precision Softmax kernels in C for resource-constrained CPUs and MCUs.
 img: assets/img/projects/turbo_softmax_perf.png
-importance: 3
+importance: 7
 category: kernels
 lang: en
 github: https://github.com/LongWeihan/Turbo-Softmax
 permalink: /projects/turbo-softmax/
+project_slug: turbo-softmax
+card_label: Numerical kernels
+year: 2024
+stack:
+  - C
+  - MCU
+  - Softmax kernel
+highlights:
+  - Targets generic MCUs with IEEE-754-aware implementation tricks.
+  - Balances numerical precision and throughput.
+  - Shows early low-level systems interest before the newer agent stack.
 ---
 
 Turbo-Softmax is a **high-precision, yet blazing fast Softmax** implementation in C. It targets MCU/embedded settings where hardware SIMD/FPU may be limited, and speedups must be achieved without large LUT memory.
@@ -34,4 +45,3 @@ Turbo-Softmax is a **high-precision, yet blazing fast Softmax** implementation i
 gcc -O3 -std=c11 -Wall -Wextra -pedantic example.c qsoftmax.c -lm -o example.exe
 ./example.exe
 ```
-

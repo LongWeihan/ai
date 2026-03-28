@@ -1,13 +1,24 @@
 ---
 layout: page
 title: OverSearchGuard
-description: 面向 RAG / Agent 的冲突感知证据裁剪（evidence thinning）。
+description: 面向 Agentic RAG 的冲突感知证据裁剪层，兼顾鲁棒性与 token 成本。
 img: assets/img/projects/oversearchguard_tradeoff.svg
-importance: 1
+importance: 4
 category: llm-systems
 lang: zh
 github: https://github.com/LongWeihan/OverSearchGuard
 permalink: /zh/projects/oversearchguard/
+project_slug: oversearchguard
+card_label: RAG 治理
+year: 2025
+stack:
+  - Agentic RAG
+  - Evidence thinning
+  - 成本感知评测
+highlights:
+  - 在生成前限制重复且低质量的证据刷屏。
+  - 无需微调即可建模可靠度与新鲜度。
+  - 同时提升准确率并显著压缩 token 开销。
 ---
 
 OverSearchGuard 是一个面向 Agentic RAG 的**证据治理层**：它位于“检索”和“生成”之间，在调用大模型之前，把大段证据裁剪为少量、高置信、具备冲突处理能力的证据行——**无需微调**。
@@ -48,4 +59,3 @@ payload = build_thin_prompt(question, evidence_lines)
 prompt = payload["prompt"]       # 直接发给任意 LLM
 candidate = payload["candidate"] # CACT 候选值（可用于 guardrail）
 ```
-

@@ -3,53 +3,180 @@ layout: about
 title: About
 permalink: /
 lang: en
-subtitle: LLM Systems & Algorithms Engineer | UESTC | Visiting Student @ University of Cambridge (Expected 2026 – 2027)
-
-profile:
-  align: right
-  image: profile.png
-  image_circular: false # keep rectangular
-  more_info: >
-    <p><b>Email:</b> weihanlong@std.uestc.edu.cn</p>
-    <p><b>GitHub:</b> github.com/LongWeihan</p>
-    <p><b>Location:</b> Chengdu, China | Cambridge, UK (visiting, 2026 – 2027)</p>
+subtitle: AI Systems Researcher | Long-running Agent Harnesses | Reliable LLM Infrastructure
 
 selected_papers: false
-social: true # includes social icons at the bottom of the page
+social: true
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: false
 
 latest_posts:
   enabled: false
 ---
 
-I build fast and reliable LLM systems — especially around **agentic RAG** and **inference efficiency**.
+{% assign current_projects = site.projects | where: "lang", page.lang | sort: "importance" %}
+{% assign flagship_projects = current_projects | where: "flagship", true %}
+{% assign archive_projects = current_projects | where_exp: "item", "item.flagship != true" %}
 
-Education:
-- **University of Cambridge**<br>Expected **2026 – 2027**<br>Visiting Student (CSC Full Scholarship)
-- **University of Electronic Science and Technology of China (UESTC)**<br>**2024 – 2027**<br>MPhil in Electronic Science and Technology (Grade A+)<br>GPA: **3.86/4.0**
-- **University of Electronic Science and Technology of China (UESTC)**<br>**2020 – 2024**<br>Bachelor in Electronic Science and Technology (Grade A+)<br>GPA: **3.82/4.0**
-- Honors Degree (Top 2 in college), Outstanding Graduate
-
-## Focus
-
-- **Inference optimization:** tokenizer-side prefix caching, numerically stable kernels, CPU bottleneck removal.
-- **Agentic RAG governance:** conflict-aware evidence thinning to resist *wrong-but-repeated* evidence and reduce token cost.
-- **Evaluation & reliability:** stress-test suites for noisy/contradictory evidence; cost-aware metrics (e.g., TPC).
-
-## Featured Projects
-
-<div class="projects">
-  <div class="row row-cols-1 row-cols-md-3">
-    {% assign featured = site.projects | where: "lang", page.lang | sort: "importance" %}
-    {% for project in featured limit: 3 %}
-      {% include projects.liquid %}
-    {% endfor %}
+<section class="hero-grid">
+  <div class="hero-copy">
+    <p class="section-kicker">AI Systems Researcher</p>
+    <h2 class="hero-headline">I build long-running agent systems that stay inspectable, reproducible, and fast.</h2>
+    <p class="hero-lead">
+      My work sits between research and systems engineering: long-horizon coding harnesses, supervised execution
+      platforms, Rust-native multi-agent orchestration, and reliability tooling for LLM inference and RAG.
+    </p>
+    <div class="hero-actions">
+      <a class="action-chip action-chip-primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
+      <a class="action-chip" href="{{ '/cv/' | relative_url }}">Open CV</a>
+      <a class="action-chip" href="https://github.com/LongWeihan">GitHub</a>
+    </div>
+    <div class="metric-strip">
+      <div class="metric-card">
+        <span class="metric-value">3</span>
+        <span class="metric-label">flagship systems</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-value">4+</span>
+        <span class="metric-label">research engineering repos</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-value">2x</span>
+        <span class="metric-label">IEEEXtreme global top 5%</span>
+      </div>
+    </div>
   </div>
-</div>
+  <div class="hero-panel">
+    <div class="hero-portrait-wrap">
+      <img src="{{ '/assets/img/profile.png' | relative_url }}" alt="Weihan Long portrait" class="hero-portrait">
+    </div>
+    <div class="hero-panel-body">
+      <p class="micro-label">Current focus</p>
+      <ul class="signal-list">
+        <li>Long-running coding agents with explicit planning and evaluator loops</li>
+        <li>Local-first supervised execution platforms for real workspaces</li>
+        <li>Rust-native orchestration for typed multi-agent workflows</li>
+      </ul>
+      <div class="info-pairs">
+        <div class="info-pair">
+          <span class="info-key">Email</span>
+          <span class="info-value">weihanlong@std.uestc.edu.cn</span>
+        </div>
+        <div class="info-pair">
+          <span class="info-key">GitHub</span>
+          <span class="info-value">github.com/LongWeihan</span>
+        </div>
+        <div class="info-pair">
+          <span class="info-key">Base</span>
+          <span class="info-value">Chengdu, China</span>
+        </div>
+        <div class="info-pair">
+          <span class="info-key">Visiting</span>
+          <span class="info-value">Cambridge, UK (2026–2027)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-## Honors
+<section class="home-section">
+  <div class="section-heading">
+    <p class="section-kicker">Research Focus</p>
+    <h3>What I am optimizing for</h3>
+  </div>
+  <div class="focus-grid">
+    <article class="focus-card">
+      <h4>Long-running agent systems</h4>
+      <p>
+        Designing harnesses where planning, generation, evaluation, and checkpointing are first-class runtime
+        concepts rather than prompt hacks.
+      </p>
+    </article>
+    <article class="focus-card">
+      <h4>Reliable execution infrastructure</h4>
+      <p>
+        Building agent software that can work inside real project directories, leave auditable traces, and remain
+        useful under human supervision.
+      </p>
+    </article>
+    <article class="focus-card">
+      <h4>Inference and RAG efficiency</h4>
+      <p>
+        Working on tokenization, kernels, reranking robustness, and evidence governance so LLM systems are faster and
+        less fragile.
+      </p>
+    </article>
+  </div>
+</section>
 
-- Global Top 5% — **IEEEXtreme – 24-hour Programming Competition** (2021)
-- Honors Degree (Top 2 in college), Outstanding Graduate
+<section class="home-section">
+  <div class="section-heading">
+    <p class="section-kicker">Flagship Systems</p>
+    <h3>The three projects that now define the homepage</h3>
+    <p class="section-copy">
+      These are the clearest signals of my current level: long-horizon coding harnesses, supervised execution, and
+      Rust-native agent orchestration.
+    </p>
+  </div>
+  <div class="projects">
+    <div class="row row-cols-1 row-cols-lg-3">
+      {% for project in flagship_projects %}
+        {% include projects.liquid %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="section-heading">
+    <p class="section-kicker">Research Engineering Archive</p>
+    <h3>Earlier systems that still anchor the stack</h3>
+  </div>
+  <div class="projects">
+    <div class="row row-cols-1 row-cols-lg-2">
+      {% for project in archive_projects limit: 4 %}
+        {% include projects.liquid %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-section info-columns">
+  <div class="info-column">
+    <p class="section-kicker">Education</p>
+    <h3>Academic path</h3>
+    <div class="timeline-list">
+      <div class="timeline-item">
+        <h4>University of Cambridge</h4>
+        <p>Expected 2026–2027 · Visiting Student · CSC Full Scholarship</p>
+      </div>
+      <div class="timeline-item">
+        <h4>University of Electronic Science and Technology of China</h4>
+        <p>2024–2027 · MPhil in Electronic Science and Technology · GPA 3.86/4.0 · Grade A+</p>
+      </div>
+      <div class="timeline-item">
+        <h4>University of Electronic Science and Technology of China</h4>
+        <p>2020–2024 · BEng in Electronic Science and Technology · GPA 3.82/4.0 · Grade A+</p>
+      </div>
+    </div>
+  </div>
+  <div class="info-column">
+    <p class="section-kicker">Honors</p>
+    <h3>Signals of execution</h3>
+    <div class="timeline-list">
+      <div class="timeline-item">
+        <h4>IEEEXtreme</h4>
+        <p>Global Top 5% in the 24-hour programming competition, 2021.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>Honors Degree</h4>
+        <p>Top 2 in college, Outstanding Graduate.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>Research orientation</h4>
+        <p>Agent systems, evaluation infrastructure, inference optimization, and reliability-aware RAG.</p>
+      </div>
+    </div>
+  </div>
+</section>

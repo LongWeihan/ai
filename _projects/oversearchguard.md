@@ -1,13 +1,24 @@
 ---
 layout: page
 title: OverSearchGuard
-description: Conflict-aware evidence thinning for search-augmented LLMs (RAG / agents).
+description: Conflict-aware evidence thinning for agentic RAG, with cost-aware robustness to duplicated noise.
 img: assets/img/projects/oversearchguard_tradeoff.svg
-importance: 1
+importance: 4
 category: llm-systems
 lang: en
 github: https://github.com/LongWeihan/OverSearchGuard
 permalink: /projects/oversearchguard/
+project_slug: oversearchguard
+card_label: RAG governance
+year: 2025
+stack:
+  - Agentic RAG
+  - Evidence thinning
+  - Cost-aware evaluation
+highlights:
+  - Caps repeated low-quality evidence before generation.
+  - Models reliability and recency without fine-tuning.
+  - Improves accuracy while sharply cutting token usage.
 ---
 
 OverSearchGuard is an **evidence-governance** layer for agentic RAG: it sits between retrieval and generation and selects a small, high-confidence, conflict-aware subset of evidence lines before calling the LLM — **no fine-tuning required**.
@@ -48,4 +59,3 @@ payload = build_thin_prompt(question, evidence_lines)
 prompt = payload["prompt"]       # send to any LLM
 candidate = payload["candidate"] # CACT candidate (useful for guardrails)
 ```
-

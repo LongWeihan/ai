@@ -1,36 +1,66 @@
+{% if project.redirect %}
+  {% assign detail_url = project.redirect %}
+{% else %}
+  {% assign detail_url = project.url | relative_url %}
+{% endif %}
+{% assign open_label = 'Open project' %}
+{% assign repo_label = 'Repository' %}
+{% if project.lang == 'zh' %}
+  {% assign open_label = '查看详情' %}
+  {% assign repo_label = '代码仓库' %}
+{% endif %}
+
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if project.img %}
+  <article class="card h-100 hoverable project-card{% if project.flagship %} project-card-flagship{% endif %}">
+    {% if project.img %}
+      <a class="project-cover-link" href="{{ detail_url }}">
         {%
           include figure.liquid
           loading="eager"
           path=project.img
           avoid_scaling=true
-          sizes = "250px"
+          sizes = "360px"
           alt="project thumbnail"
           class="card-img-top"
         %}
+      </a>
+    {% endif %}
+    <div class="card-body">
+      <div class="project-meta-row">
+        {% if project.card_label %}
+          <span class="project-label">{{ project.card_label }}</span>
+        {% endif %}
+        {% if project.year %}
+          <span class="project-year">{{ project.year }}</span>
+        {% endif %}
+      </div>
+      <h2 class="card-title" title="{{ project.title }}">
+        <a href="{{ detail_url }}">{{ project.title }}</a>
+      </h2>
+      <p class="card-text">{{ project.description }}</p>
+      {% if project.highlights %}
+        <ul class="project-highlights">
+          {% for point in project.highlights limit: 3 %}
+            <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
       {% endif %}
-      <div class="card-body">
-        <h2 class="card-title" title="{{ project.title }}">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
+      {% if project.stack %}
+        <div class="project-tags">
+          {% for item in project.stack limit: 4 %}
+            <span class="project-tag">{{ item }}</span>
+          {% endfor %}
         </div>
+      {% endif %}
+      <div class="project-links">
+        <a class="project-link-primary" href="{{ detail_url }}">{{ open_label }}</a>
+        {% if project.github %}
+          <a class="project-link-secondary" href="{{ project.github }}">
+            <i class="fa-brands fa-github gh-icon"></i>
+            {{ repo_label }}
+          </a>
+        {% endif %}
       </div>
     </div>
-  </a>
+  </article>
 </div>

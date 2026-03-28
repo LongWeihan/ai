@@ -1,13 +1,24 @@
 ---
 layout: page
 title: OrderGuard
-description: Order-robust LLM judging/reranking/tool selection via permutation marginalization (LaTIn / PCons).
+description: Permutation-marginalized LLM judging, reranking, and tool selection that reduces order sensitivity at inference time.
 img: assets/img/projects/orderguard_order_flip_rate.svg
-importance: 4
+importance: 6
 category: llm-systems
 lang: en
 github: https://github.com/LongWeihan/OrderGuard
 permalink: /projects/orderguard/
+project_slug: orderguard
+card_label: Reliability
+year: 2025
+stack:
+  - LLM judging
+  - Reranking
+  - Permutation invariance
+highlights:
+  - Treats candidate order as a nuisance variable at inference time.
+  - Uses low-variance permutation schedules plus adaptive stopping.
+  - Improves macro accuracy on Qwen3 evaluation suites.
 ---
 
 Candidate order is not a meaningful signal — but many LLM pipelines accidentally treat it as one.

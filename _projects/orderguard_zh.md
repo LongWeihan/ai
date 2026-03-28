@@ -1,13 +1,24 @@
 ---
 layout: page
 title: OrderGuard
-description: 让 LLM 判题 / 重排 / 工具选择对“候选顺序”更鲁棒（LaTIn / PCons）。
+description: 通过置换边缘化降低 LLM 判题、重排和工具选择对候选顺序的敏感性。
 img: assets/img/projects/orderguard_order_flip_rate.svg
-importance: 4
+importance: 6
 category: llm-systems
 lang: zh
 github: https://github.com/LongWeihan/OrderGuard
 permalink: /zh/projects/orderguard/
+project_slug: orderguard
+card_label: 可靠性
+year: 2025
+stack:
+  - LLM judging
+  - Reranking
+  - 置换不变性
+highlights:
+  - 在推理期把候选顺序视作干扰变量处理。
+  - 结合低方差置换调度与自适应 early-stop。
+  - 在 Qwen3 评测套件上带来稳定准确率增益。
 ---
 
 候选项的顺序本身并不是有意义的信号——但很多 LLM 流水线会在不经意间把它当成信号。

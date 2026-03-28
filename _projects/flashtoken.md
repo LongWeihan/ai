@@ -1,13 +1,24 @@
 ---
 layout: page
 title: FlashToken
-description: Tokenizer-side prefix caching for low-latency LLM systems (tiktoken).
+description: Tokenizer-side prefix caching for low-latency LLM systems, with 27x-37x speedups on reusable prompts.
 img: assets/img/projects/flashtoken_fixed_prefix_speedup.png
-importance: 2
+importance: 5
 category: llm-systems
 lang: en
 github: https://github.com/LongWeihan/FlashToken
 permalink: /projects/flashtoken/
+project_slug: flashtoken
+card_label: Inference efficiency
+year: 2025
+stack:
+  - Tokenization
+  - Prefix caching
+  - Tiktoken
+highlights:
+  - Reuses long prompt prefixes without touching model weights.
+  - Supports both fixed-prefix and append-only chat workflows.
+  - Delivers large speedups while preserving exact token equivalence.
 ---
 
 FlashToken speeds up tokenization without changing model weights. When prompts share long prefixes (system prompts, templates, conversation history), FlashToken avoids re-tokenizing the same text over and over.
@@ -40,4 +51,3 @@ enc = tiktoken.get_encoding("cl100k_base")
 cache = FixedPrefixTokenCache(enc, prefix="SYSTEM: ... long ...\n")
 tokens = cache.encode_ordinary("User: hello\n")
 ```
-

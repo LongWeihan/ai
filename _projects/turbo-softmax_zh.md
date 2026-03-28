@@ -1,13 +1,24 @@
 ---
 layout: page
 title: Turbo-Softmax
-description: 面向通用 MCU 的高精度快速 Softmax（IEEE-754 位操作 + 多项式 exp）。
+description: 面向资源受限 CPU 与 MCU 的高精度快速 Softmax C 内核实现。
 img: assets/img/projects/turbo_softmax_perf.png
-importance: 3
+importance: 7
 category: kernels
 lang: zh
 github: https://github.com/LongWeihan/Turbo-Softmax
 permalink: /zh/projects/turbo-softmax/
+project_slug: turbo-softmax
+card_label: 数值内核
+year: 2024
+stack:
+  - C
+  - MCU
+  - Softmax kernel
+highlights:
+  - 使用面向 IEEE-754 的实现技巧适配通用 MCU。
+  - 在数值精度与吞吐之间做平衡优化。
+  - 体现了进入 Agent 系统之前的底层性能工程兴趣。
 ---
 
 Turbo-Softmax 是一个用 C 实现的**高精度、极致快速** Softmax。它面向 MCU/嵌入式场景：在缺少 SIMD/FPU 或无法容忍大 LUT 内存开销时，通过可移植的数值近似实现显著提速。
@@ -34,4 +45,3 @@ Turbo-Softmax 是一个用 C 实现的**高精度、极致快速** Softmax。它
 gcc -O3 -std=c11 -Wall -Wextra -pedantic example.c qsoftmax.c -lm -o example.exe
 ./example.exe
 ```
-
