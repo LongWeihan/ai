@@ -35,7 +35,7 @@ latest_posts:
     <div class="metric-strip">
       <div class="metric-card">
         <span class="metric-value">3</span>
-        <span class="metric-label">旗舰项目</span>
+        <span class="metric-label">重点项目</span>
       </div>
       <div class="metric-card">
         <span class="metric-value">4+</span>
@@ -109,10 +109,10 @@ latest_posts:
 
 <section class="home-section">
   <div class="section-heading">
-    <p class="section-kicker">旗舰项目</p>
-    <h3>当前最能代表我水平的三个项目</h3>
+    <p class="section-kicker">重点项目</p>
+    <h3>本次重点展示的三个近期项目</h3>
     <p class="section-copy">
-      它们分别对应长时运行开发 harness、可监督执行平台和 Rust 原生多 Agent 编排，是本次主页改版的主叙事。
+      它们分别对应长时运行开发 harness、可监督执行平台和 Rust 原生多 Agent 编排。
     </p>
   </div>
   <div class="projects">
@@ -159,7 +159,7 @@ latest_posts:
   </div>
   <div class="info-column">
     <p class="section-kicker">荣誉</p>
-    <h3>执行力信号</h3>
+    <h3>荣誉与研究方向</h3>
     <div class="timeline-list">
       <div class="timeline-item">
         <h4>IEEEXtreme</h4>

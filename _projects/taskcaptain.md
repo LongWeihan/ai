@@ -43,6 +43,6 @@ task request -> workspace -> captain runtime -> agents -> logs/artifacts -> huma
 - It treats logs and artifacts as part of product design, not debugging leftovers.
 - It pushes toward a more serious model of agent software engineering: assign work, monitor progress, inspect outputs, continue.
 
-## Why it is a flagship project
+## Why it is highlighted here
 
 This repo shows product-level thinking about agent systems. The emphasis is not on a clever prompt, but on how to make an agent useful in real work under supervision.

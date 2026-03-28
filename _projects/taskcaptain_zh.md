@@ -43,6 +43,6 @@ task request -> workspace -> captain runtime -> agents -> logs/artifacts -> huma
 - 把日志和工件当作产品的一部分，而不是调试残留物。
 - 朝着更严肃的 agent software engineering 方向推进：分配任务、监控进展、审查结果、继续迭代。
 
-## 为什么它是旗舰项目
+## 为什么它值得放在首页重点位置
 
 这个仓库体现的是产品级 Agent 系统思考。重点不在“提示词技巧”，而在“怎样让 Agent 在真实工作里可控、可监督、可持续地有用”。

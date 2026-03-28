@@ -44,6 +44,6 @@ goal -> planner -> sprint backlog -> generator -> evaluator -> snapshot -> next 
 - **Recoverability:** intermediate results and benchmark snapshots make it possible to resume work instead of restarting from scratch.
 - **Research-grade traceability:** each iteration can be compared, audited, and improved systematically.
 
-## Why it is a flagship project
+## Why it is highlighted here
 
 This repo is a stronger signal than an ordinary agent demo because it focuses on the real bottleneck: how to make an AI coding system work over time without becoming opaque or fragile.

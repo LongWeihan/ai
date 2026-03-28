@@ -43,6 +43,6 @@ Agent -> Task -> Crew -> Flow -> Runtime
 - **Deployment-minded runtime:** better fit for services and infrastructure use cases.
 - **Low-overhead systems thinking:** the framework is designed with runtime discipline rather than scripting convenience as the default.
 
-## Why it is a flagship project
+## Why it is highlighted here
 
 This repo is important because it shows depth below the application layer. It signals the ability to design not only agent products, but also the orchestration substrate they run on.

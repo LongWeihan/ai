@@ -35,7 +35,7 @@ latest_posts:
     <div class="metric-strip">
       <div class="metric-card">
         <span class="metric-value">3</span>
-        <span class="metric-label">flagship systems</span>
+        <span class="metric-label">featured projects</span>
       </div>
       <div class="metric-card">
         <span class="metric-value">4+</span>
@@ -112,11 +112,10 @@ latest_posts:
 
 <section class="home-section">
   <div class="section-heading">
-    <p class="section-kicker">Flagship Systems</p>
-    <h3>The three projects that now define the homepage</h3>
+    <p class="section-kicker">Selected Projects</p>
+    <h3>Three recent projects I want to foreground</h3>
     <p class="section-copy">
-      These are the clearest signals of my current level: long-horizon coding harnesses, supervised execution, and
-      Rust-native agent orchestration.
+      They cover long-horizon development harnesses, supervised execution, and Rust-native multi-agent orchestration.
     </p>
   </div>
   <div class="projects">
@@ -163,7 +162,7 @@ latest_posts:
   </div>
   <div class="info-column">
     <p class="section-kicker">Honors</p>
-    <h3>Signals of execution</h3>
+    <h3>Honors and research context</h3>
     <div class="timeline-list">
       <div class="timeline-item">
         <h4>IEEEXtreme</h4>

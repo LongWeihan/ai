@@ -2,7 +2,7 @@
 layout: page
 title: 项目
 permalink: /zh/projects/
-description: 当前旗舰 Agent 系统与既有研究工程作品。
+description: 近期重点 Agent 系统与既有研究工程作品。
 nav: true
 nav_order: 3
 lang: zh
@@ -18,14 +18,14 @@ horizontal: false
     <p class="section-kicker">项目总览</p>
     <h2>从研究原型到可部署的 Agent 系统</h2>
     <p class="section-copy">
-      第一部分是当前最强的三项代表作，第二部分展示为它们打底的研究工程、算法与性能优化工作。
+      第一部分是这次想重点展示的三个近期项目，第二部分展示它们背后的研究工程、算法与性能优化工作。
     </p>
   </section>
 
   <section class="project-group">
     <div class="section-heading">
-      <p class="section-kicker">旗舰项目</p>
-      <h3>当前最强代表作</h3>
+      <p class="section-kicker">重点项目</p>
+      <h3>近期重点项目</h3>
     </div>
     <div class="projects">
       <div class="row row-cols-1 row-cols-lg-3">

@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Flagship agent systems and selected research engineering work.
+description: Selected agent systems and research engineering work.
 nav: true
 nav_order: 3
 lang: en
@@ -18,15 +18,15 @@ horizontal: false
     <p class="section-kicker">Project Index</p>
     <h2>From research prototypes to deployable agent systems</h2>
     <p class="section-copy">
-      The first section contains the systems that now define the homepage. The second section shows the research and
-      infrastructure work that supports them.
+      The first section highlights the three projects I want to foreground right now. The second section shows the
+      research and infrastructure work around them.
     </p>
   </section>
 
   <section class="project-group">
     <div class="section-heading">
-      <p class="section-kicker">Flagship Systems</p>
-      <h3>Current strongest work</h3>
+      <p class="section-kicker">Selected Projects</p>
+      <h3>Recent work in focus</h3>
     </div>
     <div class="projects">
       <div class="row row-cols-1 row-cols-lg-3">
