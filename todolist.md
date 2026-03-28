@@ -100,3 +100,8 @@
   涉及环境：本机缺少 Ruby / Bundler，因此改用 GitHub Actions 执行远端 Jekyll 构建与部署
   验证：主页改造已上传为 `5d4e66f`，施工记录同步后 `main` 最新为 `b10f598`；`Deploy site` 工作流成功；`gh-pages` 已更新；线上英文首页、中文首页、项目页、默认亮色、暗色切换、移动端单列布局和 `codex-long-running-harness` 项目详情页均已通过检查
   遗留：本地 Ruby 构建环境仍未补齐，但不影响当前线上主页发布
+
+- [x] 2026-03-28 | 上线后修正：下调主页文案张力，缩小头像，并重做字体比例。
+  涉及文件：`_pages/about.md`、`_pages/zh/about.md`、`_pages/projects.md`、`_pages/zh/projects.md`、`_projects/codex-long-running-harness*.md`、`_projects/taskcaptain*.md`、`_projects/crewai-rs*.md`、`_config.yml`、`_sass/_portfolio.scss`
+  验证：远端提交 `d9e5dea` 已部署成功；浏览器实测默认亮色生效、标题字体已切换到 `Source Serif 4`、正文已切换到 `Manrope`、首页头像宽度为 `220px`、中英文页面不再出现“当前最强代表作/当前最能代表我水平”等表述
+  遗留：无
