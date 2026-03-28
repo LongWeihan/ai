@@ -4,7 +4,12 @@
 
 body {
   font-family: "Manrope", sans-serif;
-  background-image: var(--global-hero-glow), var(--global-page-gradient);
+  background-image:
+    linear-gradient(rgba(68, 86, 75, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(68, 86, 75, 0.035) 1px, transparent 1px),
+    var(--global-hero-glow),
+    var(--global-page-gradient);
+  background-size: 24px 24px, 24px 24px, auto, auto;
   background-attachment: fixed;
   text-rendering: optimizeLegibility;
 }
@@ -43,7 +48,7 @@ pre,
 }
 
 .navbar.navbar-light {
-  background: color-mix(in srgb, var(--global-bg-color) 84%, transparent);
+  background: color-mix(in srgb, var(--global-bg-color) 90%, transparent);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--global-divider-color);
 
@@ -385,16 +390,11 @@ pre,
   border: 1px solid var(--global-card-border-color);
   border-radius: 24px;
   box-shadow: var(--global-card-shadow);
+  background: color-mix(in srgb, var(--global-card-bg-color) 96%, white 4%);
 }
 
 .project-card-flagship {
   transform: translateY(0);
-}
-
-.project-card .card-img-top {
-  height: 210px;
-  object-fit: cover;
-  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .project-cover-link,
@@ -402,11 +402,36 @@ pre,
   text-decoration: none !important;
 }
 
+.project-cover-link {
+  display: block;
+  padding: 1rem 1rem 0.4rem;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--global-surface-muted) 92%, white 8%), transparent),
+    transparent;
+}
+
+.project-cover-link figure,
+.project-cover-link picture {
+  display: block;
+}
+
+.project-card .card-img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+  border: 1px solid var(--global-divider-color);
+  background: color-mix(in srgb, var(--global-surface-muted) 88%, white 12%);
+}
+
 .project-card .card-body {
   display: flex;
   flex-direction: column;
   gap: 0.95rem;
-  padding: 1.15rem 1.15rem 1.2rem;
+  padding: 0.9rem 1.15rem 1.2rem;
 }
 
 .project-meta-row {
@@ -546,7 +571,7 @@ html.transition *::after {
   }
 
   .project-card .card-img-top {
-    height: 180px;
+    aspect-ratio: 4 / 3;
   }
 
   .navbar.navbar-light .navbar-nav .nav-item .nav-link,

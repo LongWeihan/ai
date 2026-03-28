@@ -6,28 +6,28 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #f4f1ea;
-  --global-code-bg-color: #e9eef3;
-  --global-text-color: #111827;
-  --global-text-color-light: #5c6778;
-  --global-theme-color: #234e73;
-  --global-hover-color: #143955;
-  --global-hover-text-color: #f8fbff;
-  --global-footer-bg-color: #0f1720;
-  --global-footer-text-color: #d7dde5;
-  --global-footer-link-color: #f8fbff;
-  --global-distill-app-color: #94a3b8;
-  --global-divider-color: rgba(17, 24, 39, 0.12);
-  --global-card-bg-color: rgba(255, 255, 255, 0.76);
-  --global-card-border-color: rgba(25, 43, 68, 0.11);
-  --global-card-shadow: 0 18px 40px rgba(15, 23, 32, 0.08);
-  --global-section-bg-color: rgba(255, 255, 255, 0.58);
-  --global-surface-muted: rgba(255, 255, 255, 0.46);
-  --global-tag-bg-color: rgba(35, 78, 115, 0.08);
-  --global-tag-border-color: rgba(35, 78, 115, 0.16);
-  --global-highlight-color: #7b2430;
-  --global-hero-glow: radial-gradient(circle at top right, rgba(93, 140, 189, 0.18), transparent 45%);
-  --global-page-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(244, 241, 234, 0.2));
+  --global-bg-color: #f5f0e8;
+  --global-code-bg-color: #ebe3d7;
+  --global-text-color: #1d221f;
+  --global-text-color-light: #66685f;
+  --global-theme-color: #44564b;
+  --global-hover-color: #2a352e;
+  --global-hover-text-color: #fbfaf6;
+  --global-footer-bg-color: #232723;
+  --global-footer-text-color: #e7e0d4;
+  --global-footer-link-color: #fbfaf6;
+  --global-distill-app-color: #a29b90;
+  --global-divider-color: rgba(45, 46, 40, 0.12);
+  --global-card-bg-color: rgba(255, 252, 247, 0.88);
+  --global-card-border-color: rgba(68, 86, 75, 0.12);
+  --global-card-shadow: 0 14px 34px rgba(53, 44, 33, 0.06);
+  --global-section-bg-color: rgba(255, 252, 247, 0.76);
+  --global-surface-muted: rgba(249, 245, 238, 0.92);
+  --global-tag-bg-color: rgba(68, 86, 75, 0.06);
+  --global-tag-border-color: rgba(68, 86, 75, 0.15);
+  --global-highlight-color: #8a5332;
+  --global-hero-glow: radial-gradient(circle at top left, rgba(162, 146, 119, 0.12), transparent 48%);
+  --global-page-gradient: linear-gradient(180deg, rgba(255, 255, 252, 0.7), rgba(245, 240, 232, 0.24));
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -80,27 +80,27 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #0d141b;
-  --global-code-bg-color: #16202b;
-  --global-text-color: #e8edf4;
-  --global-text-color-light: #98a7b9;
-  --global-theme-color: #8bc2ff;
-  --global-hover-color: #b7daff;
-  --global-hover-text-color: #081018;
-  --global-footer-bg-color: #dce6f3;
-  --global-footer-text-color: #0d141b;
-  --global-footer-link-color: #081018;
-  --global-distill-app-color: #dce6f3;
-  --global-divider-color: rgba(151, 174, 198, 0.18);
-  --global-card-bg-color: rgba(15, 23, 32, 0.88);
-  --global-card-border-color: rgba(139, 194, 255, 0.12);
-  --global-card-shadow: 0 22px 48px rgba(3, 8, 14, 0.42);
-  --global-section-bg-color: rgba(17, 26, 36, 0.74);
-  --global-surface-muted: rgba(19, 31, 43, 0.92);
-  --global-tag-bg-color: rgba(139, 194, 255, 0.08);
-  --global-tag-border-color: rgba(139, 194, 255, 0.18);
-  --global-hero-glow: radial-gradient(circle at top right, rgba(99, 168, 255, 0.2), transparent 45%);
-  --global-page-gradient: linear-gradient(180deg, rgba(21, 32, 44, 0.6), rgba(13, 20, 27, 0.15));
+  --global-bg-color: #171916;
+  --global-code-bg-color: #222620;
+  --global-text-color: #ece7de;
+  --global-text-color-light: #aaa79d;
+  --global-theme-color: #b7c5b7;
+  --global-hover-color: #dbe6d8;
+  --global-hover-text-color: #11130f;
+  --global-footer-bg-color: #e8dfd2;
+  --global-footer-text-color: #171916;
+  --global-footer-link-color: #11130f;
+  --global-distill-app-color: #d7cfbf;
+  --global-divider-color: rgba(204, 201, 190, 0.14);
+  --global-card-bg-color: rgba(28, 31, 27, 0.92);
+  --global-card-border-color: rgba(183, 197, 183, 0.12);
+  --global-card-shadow: 0 22px 48px rgba(5, 6, 4, 0.34);
+  --global-section-bg-color: rgba(24, 26, 23, 0.8);
+  --global-surface-muted: rgba(31, 34, 29, 0.96);
+  --global-tag-bg-color: rgba(183, 197, 183, 0.08);
+  --global-tag-border-color: rgba(183, 197, 183, 0.18);
+  --global-hero-glow: radial-gradient(circle at top left, rgba(122, 113, 96, 0.16), transparent 48%);
+  --global-page-gradient: linear-gradient(180deg, rgba(28, 30, 27, 0.62), rgba(23, 25, 22, 0.2));
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
