@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-项目",
           title: "项目",
-          description: "当前旗舰 Agent 系统与既有研究工程作品。",
+          description: "近期重点 Agent 系统与既有研究工程作品。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/ai/zh/projects/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Flagship agent systems and selected research engineering work.",
+          description: "Selected agent systems and research engineering work.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/ai/projects/";
