@@ -1,0 +1,27 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#F5F0E8"/>
+  <rect x="34" y="34" width="1132" height="652" rx="28" fill="#FBFAF7" stroke="#D5DEE8"/>
+  <rect x="106" y="114" width="988" height="470" rx="28" fill="#122231"/>
+  <rect x="160" y="166" width="260" height="84" rx="24" fill="#244A6A"/>
+  <text x="192" y="216" fill="#EAF4FF" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700">Task Request</text>
+  <rect x="160" y="286" width="260" height="84" rx="24" fill="#1C3952"/>
+  <text x="192" y="336" fill="#DDEBFA" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700">Workspace</text>
+  <rect x="160" y="406" width="260" height="84" rx="24" fill="#183147"/>
+  <text x="192" y="456" fill="#DDEBFA" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700">Artifacts</text>
+  <rect x="494" y="192" width="214" height="278" rx="28" fill="#2B5F85"/>
+  <text x="548" y="264" fill="#F2F8FF" font-family="IBM Plex Mono, monospace" font-size="34">captain</text>
+  <rect x="778" y="156" width="244" height="76" rx="22" fill="#32719B"/>
+  <text x="818" y="202" fill="#F2F8FF" font-family="IBM Plex Mono, monospace" font-size="30">agent run A</text>
+  <rect x="778" y="256" width="244" height="76" rx="22" fill="#285779"/>
+  <text x="818" y="302" fill="#EAF4FF" font-family="IBM Plex Mono, monospace" font-size="30">agent run B</text>
+  <rect x="778" y="356" width="244" height="76" rx="22" fill="#1F4360"/>
+  <text x="818" y="402" fill="#DDEBFA" font-family="IBM Plex Mono, monospace" font-size="30">human review</text>
+  <path d="M420 208H494" stroke="#8FC5FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M420 328H494" stroke="#8FC5FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M420 448H494" stroke="#8FC5FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M708 264H778" stroke="#8FC5FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M708 364H778" stroke="#8FC5FF" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1048" cy="512" r="58" fill="#DCEBFA"/>
+  <text x="160" y="630" fill="#102030" font-family="Space Grotesk, sans-serif" font-size="64" font-weight="700">TaskCaptain</text>
+  <text x="162" y="680" fill="#4C6176" font-family="IBM Plex Sans, sans-serif" font-size="28">A supervised execution platform for real workspaces, transparent state, and reviewable agent runs.</text>
+</svg>
