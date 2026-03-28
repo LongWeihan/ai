@@ -18,16 +18,16 @@
   --global-footer-link-color: #fbfaf6;
   --global-distill-app-color: #a29b90;
   --global-divider-color: rgba(45, 46, 40, 0.12);
-  --global-card-bg-color: rgba(255, 252, 247, 0.88);
-  --global-card-border-color: rgba(68, 86, 75, 0.12);
-  --global-card-shadow: 0 14px 34px rgba(53, 44, 33, 0.06);
-  --global-section-bg-color: rgba(255, 252, 247, 0.76);
-  --global-surface-muted: rgba(249, 245, 238, 0.92);
+  --global-card-bg-color: rgba(255, 252, 247, 0.94);
+  --global-card-border-color: rgba(68, 86, 75, 0.1);
+  --global-card-shadow: 0 10px 28px rgba(53, 44, 33, 0.045);
+  --global-section-bg-color: rgba(255, 252, 247, 0.84);
+  --global-surface-muted: rgba(249, 245, 238, 0.96);
   --global-tag-bg-color: rgba(68, 86, 75, 0.06);
   --global-tag-border-color: rgba(68, 86, 75, 0.15);
   --global-highlight-color: #8a5332;
-  --global-hero-glow: radial-gradient(circle at top left, rgba(162, 146, 119, 0.12), transparent 48%);
-  --global-page-gradient: linear-gradient(180deg, rgba(255, 255, 252, 0.7), rgba(245, 240, 232, 0.24));
+  --global-hero-glow: radial-gradient(circle at top left, rgba(162, 146, 119, 0.06), transparent 38%);
+  --global-page-gradient: linear-gradient(180deg, rgba(255, 255, 252, 0.84), rgba(245, 240, 232, 0.48));
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -77,7 +77,6 @@
     z-index: $back-to-top-z-index;
   }
 }
-
 html[data-theme="dark"] {
   color-scheme: dark;
   --global-bg-color: #171916;
@@ -93,14 +92,14 @@ html[data-theme="dark"] {
   --global-distill-app-color: #d7cfbf;
   --global-divider-color: rgba(204, 201, 190, 0.14);
   --global-card-bg-color: rgba(28, 31, 27, 0.92);
-  --global-card-border-color: rgba(183, 197, 183, 0.12);
-  --global-card-shadow: 0 22px 48px rgba(5, 6, 4, 0.34);
-  --global-section-bg-color: rgba(24, 26, 23, 0.8);
-  --global-surface-muted: rgba(31, 34, 29, 0.96);
+  --global-card-border-color: rgba(183, 197, 183, 0.1);
+  --global-card-shadow: 0 18px 40px rgba(5, 6, 4, 0.28);
+  --global-section-bg-color: rgba(24, 26, 23, 0.84);
+  --global-surface-muted: rgba(31, 34, 29, 0.98);
   --global-tag-bg-color: rgba(183, 197, 183, 0.08);
   --global-tag-border-color: rgba(183, 197, 183, 0.18);
-  --global-hero-glow: radial-gradient(circle at top left, rgba(122, 113, 96, 0.16), transparent 48%);
-  --global-page-gradient: linear-gradient(180deg, rgba(28, 30, 27, 0.62), rgba(23, 25, 22, 0.2));
+  --global-hero-glow: radial-gradient(circle at top left, rgba(122, 113, 96, 0.1), transparent 38%);
+  --global-page-gradient: linear-gradient(180deg, rgba(28, 30, 27, 0.76), rgba(23, 25, 22, 0.34));
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
