@@ -98,5 +98,5 @@
 
 - [x] 2026-03-28 | P6 完成：远端构建、线上验收与仓库上传完成。
   涉及环境：本机缺少 Ruby / Bundler，因此改用 GitHub Actions 执行远端 Jekyll 构建与部署
-  验证：`main` 已更新到 `5d4e66f`；`Deploy site` 工作流成功；`gh-pages` 已更新；线上英文首页、中文首页、项目页、默认亮色、暗色切换、移动端单列布局和 `codex-long-running-harness` 项目详情页均已通过检查
+  验证：主页改造已上传为 `5d4e66f`，施工记录同步后 `main` 最新为 `b10f598`；`Deploy site` 工作流成功；`gh-pages` 已更新；线上英文首页、中文首页、项目页、默认亮色、暗色切换、移动端单列布局和 `codex-long-running-harness` 项目详情页均已通过检查
   遗留：本地 Ruby 构建环境仍未补齐，但不影响当前线上主页发布
