@@ -105,3 +105,8 @@
   涉及文件：`_pages/about.md`、`_pages/zh/about.md`、`_pages/projects.md`、`_pages/zh/projects.md`、`_projects/codex-long-running-harness*.md`、`_projects/taskcaptain*.md`、`_projects/crewai-rs*.md`、`_config.yml`、`_sass/_portfolio.scss`
   验证：远端提交 `d9e5dea` 已部署成功；浏览器实测默认亮色生效、标题字体已切换到 `Source Serif 4`、正文已切换到 `Manrope`、首页头像宽度为 `220px`、中英文页面不再出现“当前最强代表作/当前最能代表我水平”等表述
   遗留：无
+
+- [x] 2026-03-28 | 上线后修正：解决项目卡片图片区与正文的视觉重叠感，并将整体风格进一步收敛到更安静的 editorial 方向。
+  涉及文件：`_includes/head.liquid`、`_sass/_themes.scss`、`_sass/_portfolio.scss`
+  验证：远端提交 `f717c29` 已部署成功；`Deploy site` 工作流 `23687124801` 和后续 `pages build and deployment` `23687152229` 均成功；线上 HTML 已切换到 `main.css?v=1774707695`；浏览器实测默认主题为 `light`，正文背景为 `rgb(245, 240, 232)`；前三张项目卡片 `img.bottom == body.top`，无实际重叠；`taskcaptain.svg` 等封面已是无文字的抽象图形版本；英文桌面端和中文移动端均通过检查
+  遗留：页脚仍保留既有模板里的冗余文案问题，但不影响本次首页视觉修正
