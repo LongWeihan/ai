@@ -1,26 +1,24 @@
-<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="720" rx="36" fill="#F5F0E8"/>
-  <rect x="34" y="34" width="1132" height="652" rx="28" fill="#FBFAF7" stroke="#D5DEE8"/>
-  <circle cx="180" cy="150" r="92" fill="#DCEBFA"/>
-  <circle cx="1028" cy="574" r="118" fill="#E9EEF3"/>
-  <rect x="112" y="116" width="976" height="486" rx="28" fill="#102030"/>
-  <rect x="164" y="176" width="188" height="60" rx="18" fill="#1F4360"/>
-  <text x="188" y="214" fill="#DDEBFA" font-family="IBM Plex Mono, monospace" font-size="28">goal</text>
-  <path d="M352 206H430" stroke="#8FC5FF" stroke-width="10" stroke-linecap="round"/>
-  <rect x="430" y="176" width="212" height="60" rx="18" fill="#285779"/>
-  <text x="464" y="214" fill="#DDEBFA" font-family="IBM Plex Mono, monospace" font-size="28">planner</text>
-  <path d="M642 206H734" stroke="#8FC5FF" stroke-width="10" stroke-linecap="round"/>
-  <rect x="734" y="176" width="284" height="60" rx="18" fill="#32719B"/>
-  <text x="768" y="214" fill="#EAF4FF" font-family="IBM Plex Mono, monospace" font-size="28">sprint backlog</text>
-  <rect x="180" y="334" width="218" height="60" rx="18" fill="#183A56"/>
-  <text x="212" y="372" fill="#DDEBFA" font-family="IBM Plex Mono, monospace" font-size="28">generator</text>
-  <path d="M398 364H498" stroke="#8FC5FF" stroke-width="10" stroke-linecap="round"/>
-  <rect x="498" y="334" width="204" height="60" rx="18" fill="#234E73"/>
-  <text x="534" y="372" fill="#DDEBFA" font-family="IBM Plex Mono, monospace" font-size="28">evaluator</text>
-  <path d="M702 364H806" stroke="#8FC5FF" stroke-width="10" stroke-linecap="round"/>
-  <rect x="806" y="334" width="174" height="60" rx="18" fill="#2E6C96"/>
-  <text x="840" y="372" fill="#EAF4FF" font-family="IBM Plex Mono, monospace" font-size="28">snapshot</text>
-  <path d="M894 446C760 524 454 548 272 490" stroke="#6FB7FF" stroke-width="8" stroke-linecap="round"/>
-  <text x="160" y="566" fill="#102030" font-family="Space Grotesk, sans-serif" font-size="64" font-weight="700">codex-long-running-harness</text>
-  <text x="162" y="616" fill="#4C6176" font-family="IBM Plex Sans, sans-serif" font-size="28">Long-running app development with planning, evaluation, and resumable checkpoints.</text>
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#F5F0E8"/>
+  <rect x="46" y="46" width="1108" height="808" rx="30" fill="#FBF8F2" stroke="#D9D0C4"/>
+  <circle cx="202" cy="170" r="86" fill="#E4DDD3"/>
+  <circle cx="994" cy="714" r="118" fill="#ECE5DA"/>
+  <rect x="124" y="168" width="952" height="470" rx="30" fill="#24302B"/>
+  <rect x="186" y="238" width="170" height="54" rx="16" fill="#51645B"/>
+  <rect x="412" y="238" width="208" height="54" rx="16" fill="#667A70"/>
+  <rect x="676" y="238" width="246" height="54" rx="16" fill="#7C9186"/>
+  <path d="M356 265H412" stroke="#D8C9B4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M620 265H676" stroke="#D8C9B4" stroke-width="8" stroke-linecap="round"/>
+  <rect x="210" y="380" width="210" height="54" rx="16" fill="#44564B"/>
+  <rect x="490" y="380" width="196" height="54" rx="16" fill="#5B6F64"/>
+  <rect x="756" y="380" width="170" height="54" rx="16" fill="#8A5C43"/>
+  <path d="M420 407H490" stroke="#D8C9B4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M686 407H756" stroke="#D8C9B4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M850 498C744 592 494 612 286 546" stroke="#CDAE8B" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="286" cy="546" r="10" fill="#CDAE8B"/>
+  <circle cx="850" cy="498" r="10" fill="#CDAE8B"/>
+  <rect x="152" y="694" width="896" height="72" rx="24" fill="#F2ECE3" stroke="#DDD2C3"/>
+  <rect x="184" y="722" width="188" height="16" rx="8" fill="#44564B"/>
+  <rect x="400" y="722" width="140" height="16" rx="8" fill="#8A5C43"/>
+  <rect x="568" y="722" width="240" height="16" rx="8" fill="#667A70"/>
 </svg>
